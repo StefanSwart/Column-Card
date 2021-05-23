@@ -27,7 +27,10 @@ body {
     flex-direction: column;
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
-  
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 50vh;
 }
 
 .car-type2 {
@@ -40,7 +43,10 @@ body {
     flex-direction: column;
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
-  
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 50vh;
 }
 
 .car-type3 {
@@ -53,7 +59,10 @@ body {
     flex-direction: column;
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
-  
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 50vh;
 }
 
 .panel{
@@ -65,46 +74,53 @@ body {
     flex-direction: row;
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
+    height: 50vh;
+    
+    /* padding: 100px 0; */
     
 }
 
 .learn-button1 {
-    border: 2px solid white;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
     border-radius: 50px;
-    /* display: inline-block; */
+    display: inline;
     padding: 15px 35px;
     text-decoration: none;
     margin: 25px 0;
     transition: background-color 200ms ease-in-out;
-    color: ;
-    background-color:  hsla(0, 0%, 100%, 0.75);
+    color: hsl(31, 77%, 52%);
+    background-color:  hsl(0, 0%, 95%);
+    align-self: flex-start;
+    margin-top: 4rem;
     
 }
 
 .learn-button2 {
-    border: 2px solid white;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
     border-radius: 50px;
-    /* display: inline-block; */
+    display: inline;
     padding: 15px 35px;
     text-decoration: none;
     margin: 25px 0;
     transition: background-color 200ms ease-in-out;
-    color: ;
-    background-color:  hsla(0, 0%, 100%, 0.75);
-    
+    color: hsl(184, 100%, 22%);
+    background-color:  hsl(0, 0%, 95%);
+    align-self: flex-start;
+    margin-top: 4rem;
 }
 
 .learn-button3 {
-    border: 2px solid white;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
     border-radius: 50px;
-    /* display: inline-block; */
+    display: inline;
     padding: 15px 35px;
     text-decoration: none;
     margin: 25px 0;
     transition: background-color 200ms ease-in-out;
-    color: ;
-    background-color:  hsla(0, 0%, 100%, 0.75);
-    
+    color: hsl(179, 100%, 13%);
+    background-color:  hsl(0, 0%, 95%);
+    align-self: flex-start;
+    margin-top: 4rem;
 }
 
 .icon{
@@ -116,9 +132,12 @@ body {
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
+    font-size: 2rem;
 }
 
 p {
     line-height: 1.5rem;
-    color: hsla(0, 0%, 100%, 0.75)
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 80%;
+    font-size: 15px;
 }
