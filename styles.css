@@ -1,1 +1,124 @@
-/* */
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body {
+    display:flex;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.car-type1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+  
+}
+
+.car-type2 {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+  
+}
+
+.car-type3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+  
+}
+
+.panel{
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.learn-button1 {
+    border: 2px solid white;
+    border-radius: 50px;
+    /* display: inline-block; */
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    color: ;
+    background-color:  hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.learn-button2 {
+    border: 2px solid white;
+    border-radius: 50px;
+    /* display: inline-block; */
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    color: ;
+    background-color:  hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.learn-button3 {
+    border: 2px solid white;
+    border-radius: 50px;
+    /* display: inline-block; */
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    color: ;
+    background-color:  hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.icon{
+    align-self: left;
+    max-width: 50px;
+}
+
+.car-header {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    line-height: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.75)
+}
